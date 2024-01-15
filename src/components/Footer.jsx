@@ -14,7 +14,7 @@ function Footer() {
       <div id="footerBanner">
         <p className="quote">Smaller Contributions lead to Bigger</p>
         <p className="by">~ Navyadius Wildurn</p>
-        <div className="button">Join Now</div>
+        <div className="button">Our Team</div>
       </div>
       <div id="footerContent">
         <div className="logo">

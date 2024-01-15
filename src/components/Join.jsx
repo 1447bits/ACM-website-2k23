@@ -34,7 +34,7 @@ export default function Join() {
         </div>
         <div className="JoinBox1">
           <div className="joinboxBadge">5</div>
-          <div className="joinBoxText">ACM Affiliation: As an official ACM student chapter, we are affiliated with the Association for Computing Machinery (ACM), the world's largest educational and scientific computing society. This affiliation grants us access to valuable resources and connections within the global computing community.</div>
+          <div className="joinBoxText">ACM Affiliation: As an official ACM student chapter, we are affiliated with the Association for Computing Machinery (ACM), granting us access to valuable resources and connections of global ACM community.</div>
 
         </div>
         <div className="JoinBox1">
@@ -44,12 +44,6 @@ export default function Join() {
 
         </div>
 
-      </div>
-
-
-      {/* bottom  */}
-      <div className="JoinContainerButton">
-        <span className='joinBtn'>Join now</span>
       </div>
 
     </div>

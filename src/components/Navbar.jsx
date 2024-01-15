@@ -23,11 +23,13 @@ export default function Navbar() {
                 <Link to="/about" >About</Link>
                 <Link to="/event" >Event</Link>
                 <Link to="/gallery" >gallery</Link>
-                <Link to="/team"  className='joinBtn'>Team</Link>
+                <Link to="/team" className='joinBtn'>Team</Link>
             </div>
             <div id='BurgerMenu'>
                 <div className='BurgerIcon' onClick={toggleBurgerMenu}>
-                    <img src={BurgermenuIcon} alt="options" srcset="" />
+                    <img src={BurgermenuIcon} style={{
+                        display: !BurgerMenuvisibility ? "flex" : "none"
+                    }} alt="options" />
                 </div>
             </div>
         </div>
@@ -37,12 +39,11 @@ export default function Navbar() {
             <div id="BurgerMenucloseicon" onClick={toggleBurgerMenu}>
                 <img src={closeicon} alt='close' />
             </div>
-            <Link onClick={toggleBurgerMenu} to="#" className='joinBtn'>Join now</Link>
             <Link onClick={toggleBurgerMenu} to="/" >Home</Link>
             <Link onClick={toggleBurgerMenu} to="/about" >About</Link>
             <Link onClick={toggleBurgerMenu} to="/event" >Event</Link>
             <Link onClick={toggleBurgerMenu} to="/gallery" >gallery</Link>
-            <Link onClick={toggleBurgerMenu} to="/team" className='joinBtn'>Team</Link>
+            <Link onClick={toggleBurgerMenu} to="/team">Team</Link>
         </div>
 
     </>

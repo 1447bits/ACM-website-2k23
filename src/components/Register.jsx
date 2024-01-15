@@ -8,13 +8,11 @@ export default function Register() {
 
 
     return (<>
-<div className="cyan-background">
-      <h1>Smaller Contributions lead to Bigger</h1>
-      <p>~ Navyadius Wilburn</p>
-      <button>Join Now</button>
-    </div>
-
-        
+        <div className="cyan-background">
+            <h1>Smaller Contributions lead to Bigger</h1>
+            <p>~ Navyadius Wilburn</p>
+            <button>View Team</button>
+        </div>
     </>
     )
 }

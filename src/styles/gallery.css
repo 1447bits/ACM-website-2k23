@@ -63,7 +63,8 @@
 }
 
 #gallery .galleryContainer>div>img {
-    width: min(50vw, 450px);
+    /* width: min(50vw, 35em); */
+    width: min(60vw,35em);
     aspect-ratio: 1.7;
     object-fit: cover;
 }
