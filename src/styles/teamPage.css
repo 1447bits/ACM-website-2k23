@@ -5,6 +5,12 @@
     position: relative;
 }
 
+#TeamPage h1 {
+    margin-bottom: 1.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.451);
+}
+
 #TeamPage .teamMemberCards {
     text-align: left;
     display: flex;
@@ -14,8 +20,12 @@
 #TeamPage .teamMemberCards .teamsection {
     display: flex;
     flex-wrap: wrap;
-    padding: 4% 0 1% 0%;
+    @media only screen and (max-width: 600px) {
+        padding: 15% 0 1% 0%;
+    }
+    padding: 7% 0 1% 0%;
     margin-bottom: 3%;
+    gap: 2em;
     border-bottom: 2px solid rgb(131, 131, 237);
     position: relative;
     justify-content: center;
@@ -32,7 +42,7 @@
     top: 0;
     left: 2em;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 /* #TeamPage .teamMemberCards .Teammembercard .profileImg {

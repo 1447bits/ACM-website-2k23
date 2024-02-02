@@ -17,6 +17,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 2em;
 }
 
 .Teammembercard {
@@ -25,12 +26,12 @@
     /* min-width: min(24em, 70%); */
     max-width: 95vw;
     border-radius: 0.8em;
-    margin: 2em 3em;
-    padding: 2em 3em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 1em;
+    padding-inline: 1em;
     /* padding-left: 10%; */
 }
 
@@ -39,7 +40,7 @@
     /* max-height: 25%; */
     /* min-height: 100%; */
     /* max-height: min(50%, 50px); */
-    height:  13em;
+    height: 13em;
     aspect-ratio: 1;
     overflow: hidden;
     background-color: #24242456;
